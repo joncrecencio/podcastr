@@ -1,9 +1,9 @@
 .episode{
-    max-width: 56.25rem;
+    max-width: 58rem;
     padding: 3rem 2rem;
     margin: 0 auto;
-    height: calc(100vh - 6.5rem);
-    overflow-y: auto;
+    // height: calc(100vh - 6.5rem);
+    // overflow-y: auto;
 
 
     .thumbanilContainer{
@@ -22,6 +22,9 @@
             z-index: 5;
             font-size: 0;
             transition: 400ms;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             
             &:first-child{
                 left: 0;
